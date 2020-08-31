@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "vercel-workspace-repro",
+  "scripts": {
+    "start": "gatsby develop"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "gatsby": "^2.24.53",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
